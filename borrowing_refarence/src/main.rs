@@ -9,9 +9,7 @@ fn process_1() {
 
     let len1 = calculate_length(&s1);
 
-    {
-        println!("The length of '{}' is  {}.", &s1, len1);
-    }
+    println!("The length of '{}' is  {}.", &s1, len1);
 
     let mut s2 = s1.clone();
 
@@ -29,9 +27,7 @@ fn process_2() {
 
     let len1 = calculate_length(&s1);
 
-    {
-        println!("The length of '{}' is  {}.", &s1, len1);
-    }
+    println!("The length of '{}' is  {}.", &s1, len1);
 
     println!("Next String");
 
